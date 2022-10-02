@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+  background: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;/* fazer o flex ficar 
+  em coluna e não em linha */
+}
+
+header{
+  padding: 28px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  background-color: #347EEC;
+}
+
+
+.links a{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 30px;
+  position: relative;
+  left: 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ===== wrapper ======= */
+
+#wrapper {  
+  text-align: center;
+  width: 940px;
+  height: 366px;
+  border-radius: 30px;
+  opacity: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#wrapper .info h1 {
+  color: #4E4646;
+  font-size: 96px;    
+  line-height: 112px;
+  font-weight: 700;
+  font-weight: bold;
+  text-align: left;
+  margin: 117px 60px 0% ;
+}
+#wrapper .info h3{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #4E4646;
+}
+
+#wrapper .info p{
+  
+}
+
+
+.moreInfo {
+  margin-top: 50px;
+  display: flex;
+  flex: 1;    /* faz com que a div se expanda em todo altura restante */
+  width: 100%;
+  align-items: flex-end;  /* alinha o footer lá em baixo */
+}
+
+.moreInfo img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
