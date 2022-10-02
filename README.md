@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/zenite-final.gif">
+  <img src="zenite-final.gif">
 </p>
 
 Link Figma : https://www.figma.com/file/hKi7trVY2mRnZuvTOSyEx4/Projeto-Zenite?node-id=0%3A1
