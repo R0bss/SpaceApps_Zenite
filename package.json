@@ -7,7 +7,7 @@
     "start": "npm-run-all -p nodemon browsersync",
     "nodemon": "nodemon server.js",
     "node": "node server.js",
-    "browsersync": "browser-sync start --proxy http://localhost:5000 --files 'public,views'",
+    "browsersync": "browser-sync start --proxy https://lighthearted-daifuku-59f1b0.netlify.app --files 'public,views'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm-run-all -p node browsersync"
   },
