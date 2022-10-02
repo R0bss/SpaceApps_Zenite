@@ -2,33 +2,19 @@
   "name": "spaceapps_zenite",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node server.js",
-    "dev": "npm-run-all -p nodemon browsersync",
-    "nodemon": "nodemon server.js",
-    "node": "node server.js",
-    "browsersync": "browser-sync start --proxy https://lighthearted-daifuku-59f1b0.netlify.app --files 'public,views'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertoLRV/SpaceApps_Zenite.git"
   },
   "keywords": [],
-  "author": "Group Zenite contributors",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RobertoLRV/SpaceApps_Zenite/issues"
   },
-  "homepage": "https://github.com/RobertoLRV/SpaceApps_Zenite#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "method-override": "^3.0.0",
-    "nunjucks": "^3.2.3"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.27.10",
-    "nodemon": "^2.0.20",
-    "npm-run-all": "^4.1.5"
-  }
+  "homepage": "https://github.com/RobertoLRV/SpaceApps_Zenite#readme"
 }
