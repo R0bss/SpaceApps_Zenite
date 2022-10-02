@@ -18,6 +18,7 @@ body{
 }
 
 header{
+  height: 50px;
   padding: 28px;
   position: relative;
   display: grid;
@@ -25,18 +26,21 @@ header{
   background-color: #347EEC;
 }
 
+.links{
+  height: 50px;
+  justify-content: end;
+  align-items: center;
+  display: flex;
+}
+
 
 .links a{
   color: #FFFFFF;
   font-size: 20px;
   text-decoration: none;
-  margin-left: 30px;
-  position: relative;
-  left: 50%;
-
-  top: 50%;
-  transform: translateY(-50%);
+  margin-right: 60px;  
 }
+
 
 /* ===== wrapper ======= */
 
@@ -46,9 +50,7 @@ header{
   height: 366px;
   border-radius: 30px;
   opacity: 100%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: 148px;
 }
 
 #wrapper {
@@ -56,26 +58,52 @@ header{
   grid-template-columns: 1fr 1fr;
 }
 #wrapper .info h1 {
+  width: 376px;
+  height: 113px;
+
   color: #4E4646;
   font-size: 96px;    
   line-height: 112px;
   font-weight: 700;
   font-weight: bold;
   text-align: left;
-  margin: 117px 60px 0% ;
+  margin: 183px 60px 20px 0px ;
 }
 #wrapper .info h3{
+  width: 587px;
+  height: 51px;
+
   font-weight: 400;
   font-size: 40px;
   line-height: 47px;
+  text-align: left;
   color: #4E4646;
+  margin-bottom: 30px;
 }
 
 #wrapper .info p{
-  
+  width: 587px;
+  height: 143px;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: left;
+  color: #4E4646;
+}
+
+#wrapper .image_planet img{
+  margin: 143px 0px 0px 500px ;
+  width: 396px;
+  height: 397px;
+}
+#wrapper .button{
+  display: flex;
+  justify-content: start;
 }
 
 
+/* ===  Mais Informações   === */
 .moreInfo {
   margin-top: 50px;
   display: flex;
@@ -89,3 +117,4 @@ header{
   left: 50%;
   transform: translateX(-50%);
 }
+
