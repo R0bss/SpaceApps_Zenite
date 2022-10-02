@@ -47,7 +47,6 @@ header{
 #wrapper {  
   text-align: center;
   width: 940px;
-  height: 366px;
   border-radius: 30px;
   opacity: 100%;
   margin-left: 148px;
@@ -118,3 +117,8 @@ header{
   transform: translateX(-50%);
 }
 
+/* === Page Login ===*/
+
+.login {
+  background: linear-gradient(180deg, #1A1050 0%, #3C24D5 35.42%, #3C2E94 67.19%, #351C47 95.83%);
+}
