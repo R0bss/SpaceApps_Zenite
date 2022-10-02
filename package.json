@@ -20,5 +20,13 @@
   },
   "keywords": [],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoLRV/teste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RobertoLRV/teste/issues"
+  },
+  "homepage": "https://github.com/RobertoLRV/teste#readme",
   "description": ""
 }
