@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npm-run-all -p nodemon browsersync",
+    "start": "node server.js",
+    "dev": "npm-run-all -p nodemon browsersync",
     "nodemon": "nodemon server.js",
     "node": "node server.js",
     "browsersync": "browser-sync start --proxy https://lighthearted-daifuku-59f1b0.netlify.app --files 'public,views'",
